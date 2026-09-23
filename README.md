@@ -22,11 +22,11 @@ Everything saves in your browser. There are no starter plots — the map starts 
 
 Open `index.html` in a browser, or visit `http://localhost:5173` if a local server is running.
 
-## GitHub Pages
+## Website
 
-This repo is a static site. After you push to GitHub:
+The live site is **https://littlemeetup.com**
 
-1. Open the repo → **Settings** → **Pages**
-2. Source: **Deploy from a branch**
-3. Branch: `main` / folder: `/ (root)`
-4. The live site is `https://jezzyrydz-blip.github.io/little-meetup/`
+GitHub Pages is the host. Point the domain DNS at GitHub:
+
+- `A` records for `littlemeetup.com`: `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
+- `CNAME` for `www`: `jezzyrydz-blip.github.io`
